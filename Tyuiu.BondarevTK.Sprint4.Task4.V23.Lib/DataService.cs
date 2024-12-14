@@ -10,7 +10,7 @@ namespace Tyuiu.BondarevTK.Sprint4.Task4.V23.Lib
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    if (matrix[i, j] != 0)
+                    if (matrix[i, j] % 2 != 0)
                     {
                         sum += matrix[i, j];
                     }
