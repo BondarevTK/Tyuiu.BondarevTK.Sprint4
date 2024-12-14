@@ -10,7 +10,7 @@ namespace Tyuiu.BondarevTK.Sprint4.Task3.V9.Lib
             {
                 for (int j = 0; i < array.GetLength(1); i++)
                 {
-                    if (array[i, j] == array[i,2])
+                    if (array[i, j] == array[i,1])
                     {
                         sum += array[i, j];
                     }
