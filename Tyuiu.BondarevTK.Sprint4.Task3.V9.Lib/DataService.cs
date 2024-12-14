@@ -8,13 +8,9 @@ namespace Tyuiu.BondarevTK.Sprint4.Task3.V9.Lib
             int sum = 0;
             for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int j = 0; i < array.GetLength(1); i++)
-                {
-                    if (array[i, j] == array[i,1])
-                    {
-                        sum += array[i, j];
-                    }
-                }
+                sum += array[i, 1];
+                    
+                
             }
             return sum;
         }
