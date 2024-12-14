@@ -24,6 +24,7 @@ namespace Tyuiu.BondarevTK.Sprint4.Task7.V6.Lib
                     }
                 }
             }
+            return sum;
         }
     }
 }
